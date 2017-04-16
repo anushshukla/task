@@ -1,0 +1,45 @@
+{
+  "name": "ultimate",
+  "version": "0.0.1",
+  "description": "Management of Everything",
+  "main": "gulpfile.js",
+  "directory" : "../dependencies/components",
+  "dependencies": {
+    "jquery": "^1.8.2",
+    "bootstrap": "^3.3.5"
+  },
+  "devDependencies": {
+    "bootstrap-editable": "*",
+    "bootstrap-dialogs": "^0.3.1",
+    "bootstrap-select": "^1.11.2",
+    "breakpoint": "^4.6.4",
+    "jquery.nicescroll": "^3.6.0",
+    "PACE": "pace#^0.4.0",
+    "select2": "^4.0.3",
+    "qTip": "^1.0.0",
+    "jquery-migrate": "^3.0.0",
+    "modernizr": "^3.3.1",
+    "moment": "^2.15.1",
+    "lightbox2": "lightbox#^2.8.2",
+    "blueimp-file-upload": "blueimp/jQuery-File-Upload#^9.12.5",
+    "clipboard": "^1.5.12"
+  },
+  "authors": [
+    "Ultimate Infotech Private Limited"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "products",
+    "services",
+    "support",
+    "help"
+  ],
+  "homepage": "https://www.ultimate.net/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

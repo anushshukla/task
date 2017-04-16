@@ -1,0 +1,37 @@
+{
+    "name": "anush/ultimate",
+    "description": "Management of Everything",
+    "keywords": ["product", "service"],
+    "license": "MIT",
+    "type": "project",
+    "config": {
+        "vendor-dir": "../dependencies/php"
+    },
+    "require": {
+        "php": ">=7.1.0",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "classmap": [
+            "database"
+        ],
+        "psr-4": {
+            "Model\\": "mvc/model",
+            "Controller\\": "mvc/controller"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+        ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
