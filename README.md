@@ -10,7 +10,11 @@ Blogging.
 Creating CMS Websites with customization via manual development support as well.
 
 ## Badges
+
+
+
 ## Description
+
 ## Requirements
 
 # Apache2 Server Setup
@@ -35,18 +39,18 @@ openssl req -x509  -sha256 -nodes -days 365 -newkey rsa:2048 -in /etc/php5/cacer
 
 # MySQL Database Setup
 
-mysql -u root -p
-CREATE DATABASE `task.net`;
-CREATE USER 'task'@'localhost' IDENTIFIED BY 'password@task.net';
-GRANT ALL PRIVILEGES ON * . * TO 'task'@'localhost';
-FLUSH PRIVILEGES;
+* mysql -u root -p
+* CREATE DATABASE `task.net`;
+* CREATE USER 'task'@'localhost' IDENTIFIED BY 'password@task.net';
+* GRANT ALL PRIVILEGES ON * . * TO 'task'@'localhost';
+* FLUSH PRIVILEGES;
 
 # Dependencies Installation
 
-cd config
-composer install
-npm install
-bower install
+* cd config
+* composer install
+* npm install
+* bower install
 
 ## Installation
 
@@ -57,5 +61,3 @@ composer require anush/ultimate
 ## Credits
 
 * Myself for now
-
-php7.1
